@@ -44,17 +44,16 @@ venv.bak/
 # PyCharm
 .idea/
 
-# ```
-# # Models and Checkpoints (PyTorch/TensorFlow)
-# *.pt
-# *.pth
-# *.weights
-# *.h5
-# *.hdf5
-# *.onnx
-# models/
-# checkpoints/
-# ```
+# Models and Checkpoints (PyTorch/TensorFlow)
+*.pt
+*.pth
+*.weights
+*.h5
+*.hdf5
+*.onnx
+models/
+checkpoints/*
+!checkpoints/dqn_best.pt
 
 # Logs and Tensorboard
 runs/
