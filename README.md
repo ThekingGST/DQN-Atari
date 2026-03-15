@@ -63,6 +63,12 @@ python train.py
 
 The training process uses a linear $\epsilon$-greedy decay strategy and Huber Loss for stability. It will periodically output the agent's performance (Average Reward, Epsilon, Loss) to the console and save model weights to a `checkpoints/` directory.
 
+### Results
+
+The agent's progress is tracked via the rewards obtained during training. Below is the learning curve extracted from the training checkpoints, showing the improvement in average reward over time.
+
+![Training Progress](training_progress.png)
+
 ### Evaluating a Trained Agent
 
 Once you have a mature checkpoint (or to watch the agent play out its best game), use the `evaluate.py` script. By default, it will visually render the game screen.
