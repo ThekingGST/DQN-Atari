@@ -67,7 +67,7 @@ The training process uses a linear $\epsilon$-greedy decay strategy and Huber Lo
 
 The agent's progress is tracked via the rewards obtained during training. Below is the learning curve extracted from the training checkpoints, showing the improvement in average reward over time.
 
-![Training Progress](training_progress.png)
+![Training Progress](Media/training_progress.png)
 
 ### Evaluating a Trained Agent
 
