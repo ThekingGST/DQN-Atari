@@ -61,13 +61,13 @@ logs/
 tensorboard/
 
 # Videos and Images (Atari recordings/gym environments)
-*.mp4
-*.avi
-*.gif
-*.png
-*.webm
-videos/
-recordings/
+# *.mp4
+# *.avi
+# *.gif
+# *.png
+# *.webm
+# videos/
+# recordings/
 
 # Mac OS
 .DS_Store
